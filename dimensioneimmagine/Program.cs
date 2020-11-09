@@ -10,7 +10,7 @@ namespace dimensioneimmagine
             int n1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Inserisci il secondo valore:");
             int n2 = Convert.ToInt32(Console.ReadLine());
-            int calcolo = ((n1 + n2) + 3) / 1024;
+            int calcolo = ((n1 * n2) * 3) / 1024;
             Console.WriteLine($"L'immagine pesa {calcolo} KB");
         }
     }
